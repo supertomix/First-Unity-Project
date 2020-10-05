@@ -12,12 +12,10 @@ public class SimpleExample : MonoBehaviour
     {
         deltaPos = transform.position - objToFollow.position;
     }
-
-    // Update is called once per frame 
+    
     void Update()
     {
-        transform.position = objToFollow.position + deltaPos;
-       
+        transform.position = objToFollow.position + deltaPos;       
     }
 }
  
