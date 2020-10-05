@@ -17,7 +17,7 @@ public class SimpleExample : MonoBehaviour
     void Update()
     {
         transform.position = objToFollow.position + deltaPos;
-        Debug.Log("Update");
+       
     }
 }
  
